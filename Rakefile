@@ -13,7 +13,8 @@ Motion::Project::App.setup do |app|
   app.pods do
     dependency 'DTWebArchive'
     dependency 'Evernote-SDK-iOS'
-    app.version = '1.0.0'
-    app.info_plist['CFBundleShortVersionString'] = '2'
   end
+  # app.version = '1.0.0'
+  # app.info_plist['CFBundleShortVersionString'] = '2'
+
 end
