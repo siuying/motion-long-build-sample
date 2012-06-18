@@ -1,0 +1,4 @@
+PODS_ROOT = $(SRCROOT)/Pods
+HEADER_SEARCH_PATHS = "$(PODS_ROOT)/Headers" "$(PODS_ROOT)/Headers/CocoaLumberjack" "$(PODS_ROOT)/Headers/DTWebArchive" "$(PODS_ROOT)/Headers/Evernote-SDK-iOS" "$(PODS_ROOT)/Headers/NSData+Base64" "$(PODS_ROOT)/Headers/SSKeychain" "$(PODS_ROOT)/Headers/cocoa-oauth"
+ALWAYS_SEARCH_USER_PATHS = YES
+OTHER_LDFLAGS = -ObjC -all_load -framework Foundation -framework Security -framework Security

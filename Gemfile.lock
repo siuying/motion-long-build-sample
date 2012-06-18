@@ -1,0 +1,30 @@
+GIT
+  remote: https://github.com/seanho/SimpleView.git
+  revision: ed923035707a9a2d4ec62850addce6145655f816
+  specs:
+    simple-view (0.0.3)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    bubble-wrap (1.0.0)
+    cocoapods (0.5.1)
+      xcodeproj (~> 0.1.0)
+    motion-cocoapods (1.0.3)
+      cocoapods (>= 0.5.1)
+    motion-logger (0.1.1)
+      motion-cocoapods (>= 1.0.3)
+    motion-redgreen (0.0.2)
+    routable (0.0.2)
+    xcodeproj (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bubble-wrap
+  motion-cocoapods (>= 1.0.3)
+  motion-logger (= 0.1.1)
+  motion-redgreen
+  routable
+  simple-view!
